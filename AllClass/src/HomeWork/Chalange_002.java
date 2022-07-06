@@ -36,9 +36,9 @@ public class Chalange_002 {
         price=firstItem+secondItem+thirdItem;
 
         totalPrice=
-                (price>200) ?  (price-(price * 0.2)) :
+                (price>=200) ?  (price-(price * 0.2)) :
 
-                        (price>150 && price<=200) ? (price-(price * 0.15)) :
+                        (price>150 && price<200) ? (price-(price * 0.15)) :
 
                                 (price>100 && price<= 150) ? (price-(price*0.05)) : 0;
 
