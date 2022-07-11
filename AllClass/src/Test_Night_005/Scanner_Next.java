@@ -26,9 +26,5 @@ public class Scanner_Next {
         String gradeLetter = input.next();
         System.out.println(firstName + " grade for student :" + gradeLetter);
 
-
-
-
-
     }
 }
