@@ -32,7 +32,7 @@ public class StringsMethod {
 
          startsWith()        Checks whether a string starts with specified characters                          boolean
          substring()         Extract the characters from a string, beginning at the                            String
-         specified number of character and through the specified number of chracters
+         specified number of character and through the specified number of characters
 
          toLowerCase()       Convert a string to lower case letters                                            String
          yoUpperCase()       Convert a string to upper case letters                                            String
@@ -73,7 +73,7 @@ public class StringsMethod {
 
         String name2 = "Sam";
         String name3 = "sam";
-
+        System.out.println("***************");
         boolean YN2 = name2.equals(name3);
         System.out.println(YN2);
 
@@ -99,10 +99,32 @@ public class StringsMethod {
 
         // length()            Returns the length of a specified strings
 
-
+        String len = "orange";
+        int count = len.length();
+        System.out.println(count);
 
 
         // replace()           Searches a string for a specified values, and returns a new string where the specified values are replaced
+
+        String name5 = "Lucas";
+        String name6 = name5.replace("ucas", "ook");
+        System.out.println(name6);
+
+        // replaceFirst()      Replaces the first occurrence of a substring that matches the given regular expression with given replacement
+
+        String name7 = name6.replaceFirst("L", "C");
+        System.out.println(name7);
+
+        // startsWith()        Checks whether a string starts with specified characters
+
+        String name8 = "Lucas";
+        boolean YN3 = name8.startsWith("L");
+        System.out.println(YN3);
+
+
+        // substring()         Extract the characters from a string, beginning at the specified number of character and through the specified number of chracters
+
+
 
 
 
