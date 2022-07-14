@@ -6,7 +6,7 @@ public class StringMethods {
          *
          * in Java, string is an object that represent a sequence of characters,
          Method              Description                                                                       Return Type
-         ChatAt()            Return the character at tge specified index (position)                            char
+         ChatAt()            Return the character at the specified index (position)                            char
          concat()            Appends a string to the end of another string                                     String
          contains()          Checks whether a string contains a sequence of characters                         boolean
          endsWith()          Checks whether a string ends with the specified characters                        boolean

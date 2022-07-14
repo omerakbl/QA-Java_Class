@@ -10,13 +10,14 @@ public class ForLoop {
            ending point
            iteration
         */
-        for (int i = 0; i < 20; i++){
+        for ( int i = 0; i > 0; i++ ){
+                         // i = i + 2
 
             System.out.println("iteration " + i);
         }
 
-        for (int x = 10; x > 0; x-- ){
-            System.out.println("iteration " + x);
-        }
+        //for (int x = 10; x > 0; x-- ){
+         //   System.out.println("iteration " + x);
+        //}
     }
 }
