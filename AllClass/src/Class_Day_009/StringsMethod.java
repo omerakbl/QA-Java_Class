@@ -85,7 +85,7 @@ public class StringsMethod {
 
         String name4 = "banana";
         int ind = name4.indexOf('a');
-        System.out.println(ind);
+        System.out.println("Index " + ind);
 
         // isEmpty()           Checks whether a string is empty or not
 
