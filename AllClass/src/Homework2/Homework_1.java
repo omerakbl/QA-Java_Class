@@ -35,15 +35,15 @@ public class Homework_1 {
         System.out.println(pra9.length());
 
 
-        System.out.println( Sent1.charAt(1) + " " + Sent1.charAt(4) + " " +  Sent1.charAt(5));
-        System.out.println( Sent2.charAt(1) + " " + Sent2.charAt(4) + " " +  Sent2.charAt(5));
-        System.out.println( Sent3.charAt(1) + " " + Sent3.charAt(4) + " " +  Sent3.charAt(5));
-        System.out.println( Sent4.charAt(1) + " " + Sent4.charAt(4) + " " +  Sent4.charAt(5));
-        System.out.println( Sent5.charAt(1) + " " + Sent5.charAt(4) + " " +  Sent5.charAt(5));
-        System.out.println( Sent6.charAt(1) + " " + Sent6.charAt(4) + " " +  Sent6.charAt(5));
-        System.out.println( Sent7.charAt(1) + " " + Sent7.charAt(4) + " " +  Sent7.charAt(5));
-        System.out.println( Sent8.charAt(1) + " " + Sent8.charAt(4) + " " +  Sent8.charAt(5));
-        System.out.println( Sent9.charAt(1) + " " + Sent9.charAt(4) + " " +  Sent9.charAt(5));
+        System.out.println( Sent1.charAt(1) + " " + Sent1.charAt(4) + " " +  Sent1.charAt(5) );
+        System.out.println( Sent2.charAt(1) + " " + Sent2.charAt(4) + " " +  Sent2.charAt(5) );
+        System.out.println( Sent3.charAt(1) + " " + Sent3.charAt(4) + " " +  Sent3.charAt(5) );
+        System.out.println( Sent4.charAt(1) + " " + Sent4.charAt(4) + " " +  Sent4.charAt(5) );
+        System.out.println( Sent5.charAt(1) + " " + Sent5.charAt(4) + " " +  Sent5.charAt(5) );
+        System.out.println( Sent6.charAt(1) + " " + Sent6.charAt(4) + " " +  Sent6.charAt(5) );
+        System.out.println( Sent7.charAt(1) + " " + Sent7.charAt(4) + " " +  Sent7.charAt(5) );
+        System.out.println( Sent8.charAt(1) + " " + Sent8.charAt(4) + " " +  Sent8.charAt(5) );
+        System.out.println( Sent9.charAt(1) + " " + Sent9.charAt(4) + " " +  Sent9.charAt(5) );
 
         String result = Sent1 + Sent2 + Sent3 + Sent4 + Sent5 + Sent6 + Sent7 + Sent8 + Sent9;
 
