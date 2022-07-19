@@ -49,7 +49,7 @@ public class BreakStatement {
 
         for (int i = 1; i <9; i++) {
             // i=1
-            System.out.println(i);`
+            System.out.println(i);
 
             if (i%2 == 0 && i%3==0){
                 break;
@@ -60,6 +60,21 @@ public class BreakStatement {
             System.out.println(x
             );
         }
+
+        System.out.println("********************");
+
+        int sum =0;
+
+        for (int i = 0; i <=50; i++) {
+            sum+=i;
+            //System.out.println("FIRST" + sum);
+            if (sum>=153){
+                break;
+            }
+            System.out.println("Sec nd" + sum);
+
+        }
+        //System.out.println(sum);
 
     }
 }
