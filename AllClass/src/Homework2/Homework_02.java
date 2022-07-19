@@ -21,9 +21,9 @@ public class Homework_02 {
 
             if (x % 3 == 0 && x % 5 == 0 ){
                 sum = sum + x;
-                System.out.println(count++ + " - " + " Divided by 3 and 5");
+            //    System.out.println(count++ + " - " + " Divided by 3 and 5");
             } else {
-                System.out.println(count++ + " - " + " It cant be divided by 3 and 5 ");
+            //    System.out.println(count++ + " - " + " It cant divided by 3 and 5 ");
             }
         }
 

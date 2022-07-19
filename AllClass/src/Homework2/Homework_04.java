@@ -13,7 +13,7 @@ public class Homework_04 {
             count++;
             System.out.println(number);
         }
-        System.out.println("---------------------------" + count);
+        System.out.println(count + " is the loop count");
 
 
     }

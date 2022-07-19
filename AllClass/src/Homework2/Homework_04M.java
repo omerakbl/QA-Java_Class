@@ -23,7 +23,7 @@ public class Homework_04M {
         String word = scan.nextLine();
         String reverseWord = "";
 
-        int count = 0;
+
         for (int i =  word.length()-1; i>=0; i--  ){
             reverseWord = reverseWord + word.charAt(i);
         }
