@@ -20,7 +20,6 @@ public class Homework_01 {
             }else {
                 System.out.println(i);
             }
-
         }
     }
 }

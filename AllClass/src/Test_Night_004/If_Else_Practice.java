@@ -9,7 +9,6 @@ public class If_Else_Practice {
         String userName2 = "askjdnaskjdnkjas";
         String password = "password-pas";
 
-
         int userNameLenght = userName2.length();
         int passwordLenght = password.length();
 
@@ -71,33 +70,10 @@ public class If_Else_Practice {
 
         System.out.println("************************************");
 
-
-
         int a = -10;
         int b = --a + a++ - a + --a * 2 + 10 / 2 - 10 % 3 ;
 
-
         System.out.println(b);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-    }
-
-
+}

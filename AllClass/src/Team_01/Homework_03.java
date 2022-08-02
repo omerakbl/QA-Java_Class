@@ -16,19 +16,19 @@ public class Homework_03 {
         int input = sc.nextInt();
         int result = 0;
 
-        for (int i = 0; i <= input; i+=2) {
+        for (int i = 0; i <= input; i+=2)
+        {
+
             result=result+i;
 
-            if (result>=390){
+            if (result >= 390)
+        {
                 result = result-i;
-                    break;
-
-                }
-
-            }
-        System.out.println(result);
-            }
+                break;
         }
-
+        }
+        System.out.println(result);
+    }
+}
 
 
