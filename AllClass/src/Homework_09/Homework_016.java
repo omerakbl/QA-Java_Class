@@ -9,27 +9,23 @@ public class Homework_016 {
          */
 
         int [] num = {0,-1,-2,-3,4,5,6,7,8,9};
-        int [] minus = new int[num.length];
-        int [] plus = new  int[num.length];
+        int  shor = 0;
+
         int x = 0;
 
         for (int i = 0; i < num.length; i++) {
+            for (int j = 0; j < num.length; j++) {
 
-            if (num[i]<0){
-                minus[x] = num[i];
+                if (num[i] > num[j]){
+                    shor = num[i];
+                    num[i] = num[j];
+                    num[j] = shor;
+                }
             }
-            x++;
         }
-        int k = 0;
-        for (int j = 0; j < num.length; j++) {
-            if (num[j]>=0){
-                plus[k] = num[j];
-            }
-            k++;
 
-        }
-        System.out.println(Arrays.toString(minus));
-        System.out.println(Arrays.toString(plus));
+        System.out.println(Arrays.toString(num));
+
 
 
     }

@@ -16,12 +16,15 @@ public class Homework_14 {
 
         int [] shifted = new int[8];
 
-        int x = 0;
 
-        for (int i = num.length-1; i > -1; i--) {
+        for (int i = 0; i < num.length; i--) {
 
-            shifted[x] = num[i];
-            x++;
+
+            if (shifted[num.length] == num.length ) {
+                shifted[num.length] = num[i];
+            }
+            shifted[i] = num[i];
+
 
         }
 

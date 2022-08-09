@@ -20,18 +20,13 @@ public class Homework_017 {
             System.out.println("Please enter a number");
             num[i] = sc.nextInt();
             if (max< num[i])
+             //
                 max = num[i];
 
             }
 
         System.out.println(" Your numbers are " + Arrays.toString(num));
         System.out.println("The maximum number that entered is " + max);
-
-
-
-
-
-
 
     }
 }

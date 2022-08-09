@@ -14,7 +14,6 @@ public class Homework_12 {
         int [] reverse = new int[nums.length];
 
         int x = 0;
-
         for (int i = nums.length-1; i >= 0 ; i--) {
 
             reverse[x] = nums[i];
