@@ -34,7 +34,7 @@ public class c4_ParseMethod {
         String str4 = "False";
         String str5 = "TruE";
         String str6 = "FalSE";
-        String str7 = "FalSEhello";
+        String str7 = "truehello";
 
         boolean bool1 = Boolean.parseBoolean(str3); // true
         boolean bool2 = Boolean.parseBoolean(str4); // false
@@ -47,6 +47,8 @@ public class c4_ParseMethod {
         System.out.println(bool3);
         System.out.println(bool4);
         System.out.println(bool5);
+
+
 
 
     }

@@ -38,13 +38,15 @@ public class c6_List {
 
         // ArrayList <int> list = new ArrayList<>(); int is primitive arraylist doesn't accept primitive
 
-        ArrayList<Integer> list = new ArrayList<>(); //size is equal 0 ;
+        ArrayList<Integer>  list = new ArrayList<>(); //size is equal 0 ;
 
         // add() that will add data inside the list
         list.add(10);  // size 1    index 0
         list.add(100); // size 2    index 1
         list.add(259); // size 3    index 2
         list.add(250); // size 4    index 3
+        list.add(6);
+        list.add(2, 5);
         System.out.println(list);
 
         int [] numbers = new int[5] ; // size is fixed
@@ -53,7 +55,7 @@ public class c6_List {
 
         Integer num1 = list.get(0);
         System.out.println(num1); // 10
-        System.out.println(list.get(3)); // 250
+        System.out.println(list.get(3)); // 259
         // System.out.println(list.get(4)); // IndexOutOfBoundsException
 
 
@@ -74,7 +76,7 @@ public class c6_List {
         // lastindec is always 1 number smaller then size or length
 
         System.out.println("Names are : ");
-        for (int i = 0; i <= nameList.size() -1 ; i++) { // 0 1 2 3
+        for (int i = 0; i <= nameList.size()-1 ; i++) { // 0 1 2 3
 
             System.out.println(nameList.get(i)); // 0 1 2 3
          // System.out.println(nameList.get[i]); if list was an array

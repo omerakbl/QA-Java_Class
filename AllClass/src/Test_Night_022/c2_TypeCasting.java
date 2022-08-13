@@ -56,5 +56,18 @@ public class c2_TypeCasting {
 
         // Integer
 
+
+        // int(Primitive data type)  : int can contain byte short int
+        // Integer (Wrapper Classes) : Integer (Wrapper Classes) can only linked to the  primitive equivalence (int)
+
+        int primitiveInt = 20;
+
+        Integer WrapperInt = primitiveInt;
+
+        primitiveInt  = WrapperInt;
+        Byte WrapperClassByte = 5;
+
+        primitiveInt = WrapperClassByte;
+
     }
 }
