@@ -28,10 +28,9 @@ public class Animals {
     public void eating(String food){
         System.out.println(name + " is eating " + food);
     }
-//
-//    public void getType(){
-//        System.out.println(name + " is a " + type);
-//    }
+    public void getType(){
+       System.out.println(name + " is a " + type);
+   }
 
     public String toString(){
 

@@ -3,6 +3,9 @@ package Test_Night_025;
 import MyLibrary.Library;
 import Test_Night_024.Shoe;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class AnimalObject {
 
     public static void main(String[] args) {
@@ -41,7 +44,55 @@ public class AnimalObject {
 
         Shoe shoe2 = new Shoe();
         shoe2.setShoeInfo("Nike", 8,"white");
-        System.out.println(shoe2);
+        System.out.println(shoe2); // this will print to string of shoe
+
+
+        Animals animal2 = new Animals();
+        animal2.setAnimalInfo("bird" , 2, "red", "Birdy");
+
+        Animals animal3 = new Animals();
+        animal3.setAnimalInfo("Cat" , 4, "white", "Tom");
+
+        Animals animal4 = new Animals();
+        animal4.setAnimalInfo("Mouse", 3,"gray", "Jerry");
+
+        System.out.println(animal2);
+        System.out.println(animal3);
+        System.out.println(animal4);
+
+        Library.stars();
+        ArrayList<Animals> animalList = new ArrayList<>();
+        animalList.addAll(Arrays.asList(animal1,animal2,animal3,animal4));
+
+        for (int i = 0; i < animalList.size(); i++) {
+
+            System.out.println(animalList.get(i).name);
+
+        }
+
+        for (Animals each : animalList) {
+
+            System.out.println(each.age);
+
+        }
+
+        // Animals []
+
+        Animals [] animalsAArr = {animal1,animal2,animal3,animal4};
+
+        String food1 = "Banana";
+        String food2 = "Watermelon";
+        String food3 = "Bread";
+        String food4 = "cheese";
+
+        animal1.eating(food1);
+
+        for (Animals each: animalsAArr) {
+
+            each.getType();
+            each.eating(food2);
+
+        }
 
 
 
