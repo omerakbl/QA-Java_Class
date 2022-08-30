@@ -29,7 +29,7 @@ public class c8_Final_Variables {
         c8_Final_Variables obj2=new c8_Final_Variables();
         //obj2.instanceVrble=300;  //variable is final
 
-        System.out.println("staticVrble = " + c8_final_variables.staticVrble);
+        System.out.println("staticVrble = " + c8_Final_Variables.staticVrble);
         //staticVrble=300;  variable is final
 
         //number=20;
