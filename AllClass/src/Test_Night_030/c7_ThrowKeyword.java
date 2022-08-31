@@ -29,7 +29,7 @@ public class c7_ThrowKeyword {
             System.out.println("e.getMessage() = " + e.getMessage());
         }
 
-        // Difference between throw and Throw
+        // Difference between throw and Throws
         // Throw used for to sent exception to console
         // Throws is used for handle exception
 
