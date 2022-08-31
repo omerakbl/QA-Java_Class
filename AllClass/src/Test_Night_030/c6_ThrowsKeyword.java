@@ -1,7 +1,7 @@
 package Test_Night_030;
 
 public class c6_ThrowsKeyword {
-    public static void main(String[] args) throws Exception {
+        public static void main(String[] args) throws Exception {
 
         //there is 2 way to handle exceptions so they dont stop compiler from running
         //first you can use try/catch blocks to handle
